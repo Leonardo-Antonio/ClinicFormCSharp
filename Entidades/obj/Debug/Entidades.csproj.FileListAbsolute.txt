@@ -1,0 +1,6 @@
+C:\CSharp\Doctor\Entidades\bin\Debug\Entidades.dll
+C:\CSharp\Doctor\Entidades\bin\Debug\Entidades.pdb
+C:\CSharp\Doctor\Entidades\obj\Debug\Entidades.csprojAssemblyReference.cache
+C:\CSharp\Doctor\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\CSharp\Doctor\Entidades\obj\Debug\Entidades.dll
+C:\CSharp\Doctor\Entidades\obj\Debug\Entidades.pdb

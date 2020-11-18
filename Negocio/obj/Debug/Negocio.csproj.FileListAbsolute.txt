@@ -1,0 +1,11 @@
+C:\CSharp\Doctor\Negocio\bin\Debug\Negocio.dll
+C:\CSharp\Doctor\Negocio\bin\Debug\Negocio.pdb
+C:\CSharp\Doctor\Negocio\obj\Debug\Negocio.csprojAssemblyReference.cache
+C:\CSharp\Doctor\Negocio\obj\Debug\Negocio.csproj.CoreCompileInputs.cache
+C:\CSharp\Doctor\Negocio\obj\Debug\Negocio.dll
+C:\CSharp\Doctor\Negocio\obj\Debug\Negocio.pdb
+C:\CSharp\Doctor\Negocio\bin\Debug\Datos.dll
+C:\CSharp\Doctor\Negocio\bin\Debug\Entidades.dll
+C:\CSharp\Doctor\Negocio\bin\Debug\Datos.pdb
+C:\CSharp\Doctor\Negocio\bin\Debug\Entidades.pdb
+C:\CSharp\Doctor\Negocio\obj\Debug\Negocio.csproj.CopyComplete

@@ -1,0 +1,9 @@
+C:\CSharp\Doctor\Datos\bin\Debug\Datos.dll
+C:\CSharp\Doctor\Datos\bin\Debug\Datos.pdb
+C:\CSharp\Doctor\Datos\obj\Debug\Datos.csprojAssemblyReference.cache
+C:\CSharp\Doctor\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\CSharp\Doctor\Datos\obj\Debug\Datos.dll
+C:\CSharp\Doctor\Datos\obj\Debug\Datos.pdb
+C:\CSharp\Doctor\Datos\bin\Debug\Entidades.dll
+C:\CSharp\Doctor\Datos\bin\Debug\Entidades.pdb
+C:\CSharp\Doctor\Datos\obj\Debug\Datos.csproj.CopyComplete
