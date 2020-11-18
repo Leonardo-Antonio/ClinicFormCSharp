@@ -50,6 +50,7 @@
         <e p="forms" t="Include">
           <e p="Contrareferencia.cs" t="Include" />
           <e p="Contrareferencia.Designer.cs" t="Include" />
+          <e p="Contrareferencia.resx" t="Include" />
           <e p="Diagnosis.cs" t="Include" />
           <e p="Diagnosis.Designer.cs" t="Include" />
           <e p="Diagnosis.resx" t="Include" />

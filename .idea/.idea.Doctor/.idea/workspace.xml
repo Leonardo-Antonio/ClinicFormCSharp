@@ -13,9 +13,19 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="324e66d8-4ea4-40fe-8209-bad60d8fe099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="324e66d8-4ea4-40fe-8209-bad60d8fe099" name="Default Changelist" comment="gitignore">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Doctor/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Doctor/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Doctor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Doctor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/Forms/Contrareferencia.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/Forms/Contrareferencia.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/Main.Designer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/Main.Designer.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/Main.resx" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/Main.resx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/Presentacion.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/Presentacion.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/bin/Debug/Presentacion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/bin/Debug/Presentacion.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/bin/Debug/Presentacion.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/bin/Debug/Presentacion.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/obj/Debug/Presentacion.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/obj/Debug/Presentacion.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/obj/Debug/Presentacion.csproj.GenerateResource.cache" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/obj/Debug/Presentacion.csproj.GenerateResource.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/obj/Debug/Presentacion.exe" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/obj/Debug/Presentacion.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Presentacion/obj/Debug/Presentacion.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/Presentacion/obj/Debug/Presentacion.pdb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +153,7 @@
       <workItem from="1605666934117" duration="6937000" />
       <workItem from="1605657244737" duration="96000" />
       <workItem from="1605711906296" duration="701000" />
-      <workItem from="1605712776495" duration="12132000" />
+      <workItem from="1605712776495" duration="13363000" />
     </task>
     <task id="LOCAL-00001" summary="manejo de los datos nulos en la bd">
       <created>1605725026038</created>
@@ -236,7 +246,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605725393864</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="gitignore">
+      <created>1605725624372</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725624372</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,25 +287,26 @@
     <MESSAGE value="capa de aranque" />
     <MESSAGE value="controlador de doctor" />
     <MESSAGE value="other" />
-    <option name="LAST_COMMIT_MESSAGE" value="other" />
+    <MESSAGE value="gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="gitignore" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1317" height="175" key="GridCell.Tab.0.bottom" timestamp="1605724663599">
+    <state width="1317" height="175" key="GridCell.Tab.0.bottom" timestamp="1605728228217">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="175" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605724663599" />
-    <state width="1317" height="175" key="GridCell.Tab.0.center" timestamp="1605724663599">
+    <state width="1317" height="175" key="GridCell.Tab.0.bottom/0.0.1360.728@0.0.1360.728" timestamp="1605728228217" />
+    <state width="1317" height="175" key="GridCell.Tab.0.center" timestamp="1605728228217">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="175" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1605724663599" />
-    <state width="1317" height="175" key="GridCell.Tab.0.left" timestamp="1605724663599">
+    <state width="1317" height="175" key="GridCell.Tab.0.center/0.0.1360.728@0.0.1360.728" timestamp="1605728228217" />
+    <state width="1317" height="175" key="GridCell.Tab.0.left" timestamp="1605728228217">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="175" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1605724663599" />
-    <state width="1317" height="175" key="GridCell.Tab.0.right" timestamp="1605724663599">
+    <state width="1317" height="175" key="GridCell.Tab.0.left/0.0.1360.728@0.0.1360.728" timestamp="1605728228217" />
+    <state width="1317" height="175" key="GridCell.Tab.0.right" timestamp="1605728228217">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state width="1317" height="175" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1605724663599" />
+    <state width="1317" height="175" key="GridCell.Tab.0.right/0.0.1360.728@0.0.1360.728" timestamp="1605728228217" />
     <state width="1317" height="250" key="GridCell.Tab.1.bottom" timestamp="1605656566463">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
@@ -365,10 +383,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="354" y="16" key="ToolboxManager/0.0.1360.728@0.0.1360.728" timestamp="1605550363057" />
-    <state x="272" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605725538883">
+    <state x="272" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605725629200">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="272" y="96" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1605725538883" />
+    <state x="272" y="96" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1605725629200" />
     <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605718820769">
       <screen x="0" y="0" width="1360" height="728" />
     </state>

@@ -18,3 +18,4 @@ C:\CSharp\Doctor\Presentacion\bin\Debug\Datos.dll
 C:\CSharp\Doctor\Presentacion\bin\Debug\Datos.pdb
 C:\CSharp\Doctor\Presentacion\obj\Debug\Presentacion.Forms.Diagnosis.resources
 C:\CSharp\Doctor\Presentacion\obj\Debug\Presentacion.Forms.SearchDiagnosis.resources
+C:\CSharp\Doctor\Presentacion\obj\Debug\Presentacion.Forms.Contrareferencia.resources

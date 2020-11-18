@@ -50,20 +50,25 @@ namespace Presentacion
             this.txt_dni = new Bunifu.Framework.UI.BunifuMaterialTextbox();
             this.btn_LogInUser = new Bunifu.Framework.UI.BunifuThinButton2();
             this.txt_password = new Bunifu.Framework.UI.BunifuMaterialTextbox();
+            this.btn_contrareferencia = new Bunifu.Framework.UI.BunifuImageButton();
+            this.btn_listcontrareferencia = new Bunifu.Framework.UI.BunifuImageButton();
             this.pnl_sidebar.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_diagnosis)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_search)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_poweroff)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_LogIn)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_diagnosis)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_search)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_poweroff)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_LogIn)).BeginInit();
             this.pnl_move.SuspendLayout();
             this.pnl_main.SuspendLayout();
             this.pnl_login.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_contrareferencia)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_listcontrareferencia)).BeginInit();
             this.SuspendLayout();
             // 
             // pnl_sidebar
             // 
-            this.pnl_sidebar.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnl_sidebar.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left)));
+            this.pnl_sidebar.Controls.Add(this.btn_listcontrareferencia);
+            this.pnl_sidebar.Controls.Add(this.btn_contrareferencia);
             this.pnl_sidebar.Controls.Add(this.btn_diagnosis);
             this.pnl_sidebar.Controls.Add(this.btn_search);
             this.pnl_sidebar.Controls.Add(this.btn_poweroff);
@@ -76,12 +81,10 @@ namespace Presentacion
             // 
             // btn_diagnosis
             // 
-            this.btn_diagnosis.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_diagnosis.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_diagnosis.BackColor = System.Drawing.Color.Transparent;
             this.btn_diagnosis.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_diagnosis.Image = ((System.Drawing.Image)(resources.GetObject("btn_diagnosis.Image")));
+            this.btn_diagnosis.Image = ((System.Drawing.Image) (resources.GetObject("btn_diagnosis.Image")));
             this.btn_diagnosis.ImageActive = null;
             this.btn_diagnosis.Location = new System.Drawing.Point(0, 106);
             this.btn_diagnosis.Name = "btn_diagnosis";
@@ -94,12 +97,10 @@ namespace Presentacion
             // 
             // btn_search
             // 
-            this.btn_search.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_search.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_search.BackColor = System.Drawing.Color.Transparent;
             this.btn_search.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_search.Image = ((System.Drawing.Image)(resources.GetObject("btn_search.Image")));
+            this.btn_search.Image = ((System.Drawing.Image) (resources.GetObject("btn_search.Image")));
             this.btn_search.ImageActive = null;
             this.btn_search.Location = new System.Drawing.Point(0, 153);
             this.btn_search.Name = "btn_search";
@@ -112,12 +113,10 @@ namespace Presentacion
             // 
             // btn_poweroff
             // 
-            this.btn_poweroff.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_poweroff.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_poweroff.BackColor = System.Drawing.Color.Transparent;
             this.btn_poweroff.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_poweroff.Image = ((System.Drawing.Image)(resources.GetObject("btn_poweroff.Image")));
+            this.btn_poweroff.Image = ((System.Drawing.Image) (resources.GetObject("btn_poweroff.Image")));
             this.btn_poweroff.ImageActive = null;
             this.btn_poweroff.Location = new System.Drawing.Point(0, 394);
             this.btn_poweroff.Name = "btn_poweroff";
@@ -130,8 +129,7 @@ namespace Presentacion
             // 
             // panel2
             // 
-            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panel2.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.panel2.Location = new System.Drawing.Point(55, 0);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(200, 100);
@@ -139,12 +137,10 @@ namespace Presentacion
             // 
             // btn_LogIn
             // 
-            this.btn_LogIn.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_LogIn.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.btn_LogIn.BackColor = System.Drawing.Color.Transparent;
             this.btn_LogIn.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_LogIn.Image = ((System.Drawing.Image)(resources.GetObject("btn_LogIn.Image")));
+            this.btn_LogIn.Image = ((System.Drawing.Image) (resources.GetObject("btn_LogIn.Image")));
             this.btn_LogIn.ImageActive = null;
             this.btn_LogIn.Location = new System.Drawing.Point(0, 59);
             this.btn_LogIn.Name = "btn_LogIn";
@@ -156,8 +152,7 @@ namespace Presentacion
             // 
             // pnl_move
             // 
-            this.pnl_move.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnl_move.Anchor = ((System.Windows.Forms.AnchorStyles) (((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.pnl_move.Controls.Add(this.lbl_dni);
             this.pnl_move.Controls.Add(this.lbl_fullname);
             this.pnl_move.Location = new System.Drawing.Point(55, 0);
@@ -167,9 +162,7 @@ namespace Presentacion
             // 
             // lbl_dni
             // 
-            this.lbl_dni.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_dni.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_dni.Location = new System.Drawing.Point(537, 0);
             this.lbl_dni.Name = "lbl_dni";
             this.lbl_dni.Size = new System.Drawing.Size(134, 27);
@@ -178,9 +171,7 @@ namespace Presentacion
             // 
             // lbl_fullname
             // 
-            this.lbl_fullname.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.lbl_fullname.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.lbl_fullname.Location = new System.Drawing.Point(3, 0);
             this.lbl_fullname.Name = "lbl_fullname";
             this.lbl_fullname.Size = new System.Drawing.Size(134, 27);
@@ -196,9 +187,7 @@ namespace Presentacion
             // 
             // pnl_main
             // 
-            this.pnl_main.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
+            this.pnl_main.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
             this.pnl_main.Controls.Add(this.pnl_login);
             this.pnl_main.Location = new System.Drawing.Point(55, 33);
             this.pnl_main.Name = "pnl_main";
@@ -240,7 +229,7 @@ namespace Presentacion
             this.txt_dni.BackColor = System.Drawing.Color.White;
             this.txt_dni.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_dni.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.txt_dni.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_dni.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (64)))), ((int) (((byte) (64)))), ((int) (((byte) (64)))));
             this.txt_dni.HintForeColor = System.Drawing.Color.Empty;
             this.txt_dni.HintText = "";
             this.txt_dni.isPassword = false;
@@ -264,11 +253,11 @@ namespace Presentacion
             this.btn_LogInUser.ActiveForecolor = System.Drawing.Color.White;
             this.btn_LogInUser.ActiveLineColor = System.Drawing.Color.SeaGreen;
             this.btn_LogInUser.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_LogInUser.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btn_LogInUser.BackgroundImage")));
+            this.btn_LogInUser.BackgroundImage = ((System.Drawing.Image) (resources.GetObject("btn_LogInUser.BackgroundImage")));
             this.btn_LogInUser.ButtonText = "Ingresar";
             this.btn_LogInUser.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_LogInUser.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_LogInUser.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.btn_LogInUser.Font = new System.Drawing.Font("Century Gothic", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte) (0)));
+            this.btn_LogInUser.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (0)))), ((int) (((byte) (0)))), ((int) (((byte) (192)))));
             this.btn_LogInUser.IdleBorderThickness = 1;
             this.btn_LogInUser.IdleCornerRadius = 20;
             this.btn_LogInUser.IdleFillColor = System.Drawing.Color.White;
@@ -287,7 +276,7 @@ namespace Presentacion
             this.txt_password.BackColor = System.Drawing.Color.White;
             this.txt_password.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.txt_password.Font = new System.Drawing.Font("Century Gothic", 9.75F);
-            this.txt_password.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.txt_password.ForeColor = System.Drawing.Color.FromArgb(((int) (((byte) (64)))), ((int) (((byte) (64)))), ((int) (((byte) (64)))));
             this.txt_password.HintForeColor = System.Drawing.Color.Empty;
             this.txt_password.HintText = "";
             this.txt_password.isPassword = false;
@@ -303,6 +292,36 @@ namespace Presentacion
             this.txt_password.Text = "password";
             this.txt_password.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
             // 
+            // btn_contrareferencia
+            // 
+            this.btn_contrareferencia.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_contrareferencia.BackColor = System.Drawing.Color.Transparent;
+            this.btn_contrareferencia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_contrareferencia.Image = ((System.Drawing.Image) (resources.GetObject("btn_contrareferencia.Image")));
+            this.btn_contrareferencia.ImageActive = null;
+            this.btn_contrareferencia.Location = new System.Drawing.Point(0, 200);
+            this.btn_contrareferencia.Name = "btn_contrareferencia";
+            this.btn_contrareferencia.Size = new System.Drawing.Size(49, 41);
+            this.btn_contrareferencia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_contrareferencia.TabIndex = 8;
+            this.btn_contrareferencia.TabStop = false;
+            this.btn_contrareferencia.Zoom = 13;
+            // 
+            // btn_listcontrareferencia
+            // 
+            this.btn_listcontrareferencia.Anchor = ((System.Windows.Forms.AnchorStyles) ((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) | System.Windows.Forms.AnchorStyles.Left) | System.Windows.Forms.AnchorStyles.Right)));
+            this.btn_listcontrareferencia.BackColor = System.Drawing.Color.Transparent;
+            this.btn_listcontrareferencia.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_listcontrareferencia.Image = ((System.Drawing.Image) (resources.GetObject("btn_listcontrareferencia.Image")));
+            this.btn_listcontrareferencia.ImageActive = null;
+            this.btn_listcontrareferencia.Location = new System.Drawing.Point(0, 247);
+            this.btn_listcontrareferencia.Name = "btn_listcontrareferencia";
+            this.btn_listcontrareferencia.Size = new System.Drawing.Size(49, 41);
+            this.btn_listcontrareferencia.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.btn_listcontrareferencia.TabIndex = 9;
+            this.btn_listcontrareferencia.TabStop = false;
+            this.btn_listcontrareferencia.Zoom = 13;
+            // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -316,16 +335,20 @@ namespace Presentacion
             this.Text = "Main";
             this.Load += new System.EventHandler(this.Main_Load);
             this.pnl_sidebar.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.btn_diagnosis)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_search)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_poweroff)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.btn_LogIn)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_diagnosis)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_search)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_poweroff)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_LogIn)).EndInit();
             this.pnl_move.ResumeLayout(false);
             this.pnl_main.ResumeLayout(false);
             this.pnl_login.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize) (this.btn_contrareferencia)).EndInit();
+            ((System.ComponentModel.ISupportInitialize) (this.btn_listcontrareferencia)).EndInit();
             this.ResumeLayout(false);
-
         }
+
+        private Bunifu.Framework.UI.BunifuImageButton btn_contrareferencia;
+        private Bunifu.Framework.UI.BunifuImageButton btn_listcontrareferencia;
 
         private Bunifu.Framework.UI.BunifuCustomLabel lbldni;
 
