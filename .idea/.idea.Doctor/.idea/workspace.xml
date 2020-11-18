@@ -14,16 +14,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="324e66d8-4ea4-40fe-8209-bad60d8fe099" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Datos/DDiagnosis.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datos/DPatient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Datos/Valid/Null.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entidades/EDiagnosis.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Entidades/EPatient.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Negocio/NDiagnosis.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentacion/Forms/Contrareferencia.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentacion/Forms/SearchDiagnosis.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentacion/LocalStorage/DiagnosisDoc.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Presentacion/LocalStorage/LogIn.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Doctor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Doctor/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,6 +28,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/25/598cf3b3/DBNull.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D6D3AC03-BF86-4882-89C2-EBF3A45CE0A1/77/c0e8e278/Number.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Datos/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/63DD8BF9-8CFA-4BA9-85AF-735EF1A56BA9/22/1a106110/String.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -85,6 +78,7 @@
         <option value="$PROJECT_DIR$/Negocio/NDiagnosis.cs" />
         <option value="$PROJECT_DIR$/Presentacion/Forms/Diagnosis.cs" />
         <option value="$PROJECT_DIR$/Presentacion/Forms/SearchDiagnosis.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -149,8 +143,100 @@
       <workItem from="1605666934117" duration="6937000" />
       <workItem from="1605657244737" duration="96000" />
       <workItem from="1605711906296" duration="701000" />
-      <workItem from="1605712776495" duration="11410000" />
+      <workItem from="1605712776495" duration="12132000" />
     </task>
+    <task id="LOCAL-00001" summary="manejo de los datos nulos en la bd">
+      <created>1605725026038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725026038</updated>
+    </task>
+    <task id="LOCAL-00002" summary="presentacion">
+      <created>1605725169594</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725169594</updated>
+    </task>
+    <task id="LOCAL-00003" summary="localstorage">
+      <created>1605725186633</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725186633</updated>
+    </task>
+    <task id="LOCAL-00004" summary="metodos de la tabla diagnostico">
+      <created>1605725215144</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725215144</updated>
+    </task>
+    <task id="LOCAL-00005" summary="entidad diagnostico">
+      <created>1605725227505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725227505</updated>
+    </task>
+    <task id="LOCAL-00006" summary="entidad paciete">
+      <created>1605725236300</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725236300</updated>
+    </task>
+    <task id="LOCAL-00007" summary="controlador del diagnostico">
+      <created>1605725256589</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725256589</updated>
+    </task>
+    <task id="LOCAL-00008" summary="metodos de la tabla diagnostico">
+      <created>1605725274964</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725274964</updated>
+    </task>
+    <task id="LOCAL-00009" summary="entidad doctor">
+      <created>1605725299264</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725299264</updated>
+    </task>
+    <task id="LOCAL-00010" summary="manejo de excepciones">
+      <created>1605725318477</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725318477</updated>
+    </task>
+    <task id="LOCAL-00011" summary="capa de aranque">
+      <created>1605725349028</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725349028</updated>
+    </task>
+    <task id="LOCAL-00012" summary="controlador de doctor">
+      <created>1605725361048</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725361048</updated>
+    </task>
+    <task id="LOCAL-00013" summary="other">
+      <created>1605725393864</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1605725393864</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -172,6 +258,19 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+    <MESSAGE value="manejo de los datos nulos en la bd" />
+    <MESSAGE value="presentacion" />
+    <MESSAGE value="localstorage" />
+    <MESSAGE value="entidad diagnostico" />
+    <MESSAGE value="entidad paciete" />
+    <MESSAGE value="controlador del diagnostico" />
+    <MESSAGE value="metodos de la tabla diagnostico" />
+    <MESSAGE value="entidad doctor" />
+    <MESSAGE value="manejo de excepciones" />
+    <MESSAGE value="capa de aranque" />
+    <MESSAGE value="controlador de doctor" />
+    <MESSAGE value="other" />
+    <option name="LAST_COMMIT_MESSAGE" value="other" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1317" height="175" key="GridCell.Tab.0.bottom" timestamp="1605724663599">
@@ -266,10 +365,10 @@
       <screen x="0" y="0" width="1360" height="728" />
     </state>
     <state x="354" y="16" key="ToolboxManager/0.0.1360.728@0.0.1360.728" timestamp="1605550363057" />
-    <state x="272" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605635504794">
+    <state x="272" y="96" key="Vcs.Push.Dialog.v2" timestamp="1605725538883">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
-    <state x="272" y="96" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1605635504794" />
+    <state x="272" y="96" key="Vcs.Push.Dialog.v2/0.0.1360.728@0.0.1360.728" timestamp="1605725538883" />
     <state x="343" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1605718820769">
       <screen x="0" y="0" width="1360" height="728" />
     </state>
